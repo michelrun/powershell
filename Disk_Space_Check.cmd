@@ -1,0 +1,1 @@
+powershell.exe -command C:\appli\develop\powershell\disk_space_check.ps1 C:\appli\develop\powershell\list_machine.txt
