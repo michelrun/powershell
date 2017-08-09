@@ -1,27 +1,27 @@
-1) dans le dossier (folder_name) à tracer
+"1) dans le dossier (folder_name) Ã  tracer
 git init
 git add file_name
 git add file_name2
 ...
-git commit -m "first commit..."  ou git commit -a pour commiter tous les fichiers modifiés
+git commit -m "first commit..."  ou git commit -a "commit reason..." pour commiter tous les fichiers modifiÃ©s
 
-2) Créer un dépot associé sur github de nom folder_name
+2) CrÃ©er un dÃ©pot associÃ© sur github de nom folder_name
 Se connecter sur github, +>Create repository, ajouter une description
 Dans le dossier en local : git remote add folder_name https://github.com/michelrun/folder_name.git
 
 
 3) Envoyer le dossier local vers github
 
-git push -u origin master
+git push -u
 
-4) Récupérer les modif de github en local
+4) RÃ©cupÃ©rer les modif de github en local
 
 git pull
 
 
 
 
-…or create a new repository on the command line
+â€¦or create a new repository on the command line
 
 echo "# powershell" >> README.md
 git init
@@ -29,7 +29,7 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/michelrun/powershell.git
 git push -u origin master
-…or push an existing repository from the command line
+â€¦or push an existing repository from the command line
 
 git remote add origin https://github.com/michelrun/powershell.git
 git push -u origin master
